@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kendi temamızı oluşturup AppCompat'ten miras alıyoruz -->
+    <style name="Theme.FlickDrop" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Aktivite yeniden başlarken siyah yerine sistemin varsayılan arka plan rengini gösterir -->
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+    </style>
+</resources>

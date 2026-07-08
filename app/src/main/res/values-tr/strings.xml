@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlickDrop</string>
+    <string name="setup_title">Görünen adınızı belirleyin</string>
+    <string name="setup_subtitle">Diğer kullanıcılar sizi bu isimle görecek</string>
+    <string name="setup_hint">Görünen Ad</string>
+    <string name="setup_button">Başla</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_en">English</string>
+</resources>

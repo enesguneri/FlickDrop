@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlickDrop</string>
+    <string name="setup_title">Choose your display name</string>
+    <string name="setup_subtitle">This is how others will see you on the network</string>
+    <string name="setup_hint">Display Name</string>
+    <string name="setup_button">Start</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_en">English</string>
+</resources>
