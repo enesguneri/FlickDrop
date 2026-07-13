@@ -6,4 +6,11 @@
     <string name="setup_button">Başla</string>
     <string name="language_tr">Türkçe</string>
     <string name="language_en">English</string>
+
+    <string name="discovery_title">Radar</string>
+    <string name="discovery_subtitle">Yakındaki FlickDrop cihazları taranıyor...</string>
+    <string name="discovery_empty">Henüz cihaz bulunamadı. Karşı cihazın da bu ekranda olduğundan emin olun.</string>
+    <string name="permission_required_title">İzinler Gerekli</string>
+    <string name="permission_required_desc">FlickDrop, internet bağlantısı olmadan yakındaki cihazları bulabilmek için Konum ve Bluetooth izinlerine ihtiyaç duyar.</string>
+    <string name="grant_permissions">İzinleri Ver</string>
 </resources>

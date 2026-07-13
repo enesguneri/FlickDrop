@@ -13,6 +13,7 @@ import com.enesguneri.flickdrop.R
 
 @Composable
 fun SetupScreen(
+    onNavigateToDiscovery: (String) -> Unit,
     viewModel: SetupViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 ) {
     // ViewModel'daki StateFlow'u Compose'un anlayacağı State'e dönüştürüyoruz
@@ -58,7 +59,11 @@ fun SetupScreen(
 
         // Başlama Butonu
         Button(
-            onClick = { viewModel.onEvent(SetupEvent.OnStartClicked) },
+            onClick = {
+                viewModel.onEvent(SetupEvent.OnStartClicked)
+                // İsim alanındaki metni alıp Radar ekranına geçiş tetikleyicisini çalıştırıyoruz
+                onNavigateToDiscovery(state.displayName.trim())
+            },
             enabled = state.isButtonEnabled,
             modifier = Modifier.fillMaxWidth()
         ) {

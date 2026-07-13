@@ -6,4 +6,11 @@
     <string name="setup_button">Start</string>
     <string name="language_tr">Türkçe</string>
     <string name="language_en">English</string>
+
+    <string name="discovery_title">Radar</string>
+    <string name="discovery_subtitle">Scanning for nearby FlickDrop devices...</string>
+    <string name="discovery_empty">No devices found yet. Make sure the other device is on this screen.</string>
+    <string name="permission_required_title">Permissions Needed</string>
+    <string name="permission_required_desc">FlickDrop needs Location and Bluetooth permissions to discover nearby devices without an internet connection.</string>
+    <string name="grant_permissions">Grant Permissions</string>
 </resources>
